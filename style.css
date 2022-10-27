@@ -1,0 +1,38 @@
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+}
+
+p{
+    font-size: 88px;
+    font-weight: 800;
+}
+
+#seconds{
+    color: red;
+}
+
+button{
+    padding: 20px 40px 20px 40px;
+    background-color: aliceblue;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+button:hover{
+    background-color: rgb(251, 229, 186);
+    transition: .6s;
+}
+
+
+
+.button{
+    display: flex;
+    gap: 20px;
+}
